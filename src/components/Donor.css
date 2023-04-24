@@ -1,0 +1,96 @@
+.ws {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 70%;
+    margin: 0 auto;
+    background-color:white;
+    padding: 20px 30px;
+    border-radius: 8px;
+    border: 2px solid #7d7b7b;
+   }
+  .ws h1,label{
+    color:black;
+  }
+  .ws h1 {
+    text-align: center;
+  font-family: 'lucida console'; }
+  
+  .form-container {
+    width: 100%;
+    margin: 10px auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row; }
+  
+  .flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  
+  .flex-item {
+    width: 40%;
+    height: 100%; }
+  
+  .ws label {
+    display: block;
+    font-size: 20px; }
+  
+  .field-container {
+    padding: 5px 10px;
+    margin: 10px 0 10px; }
+  
+   .ws .required {
+    color: red;
+    font-size: 0.9em; }
+  
+  .field-container > input, .passkey-box > input {
+    width: 100%;
+    display: inline-block;
+    padding: 7px 15px;
+    font-size: 18px;
+    margin: 5px 0 3px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black; }
+  
+  .passkey-box {
+    position: relative; }
+  
+  .passkey-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    font-size: 1.2em; }
+  
+  .field-container > input:focus, .passkey-box > input:focus {
+    border-bottom: 2px solid dodgerBlue; }
+  
+  .error-messg {
+    display: block;
+    color: red;
+    font-weight: 300; }
+  
+  .ws .center {
+    text-align: center; }
+  
+  .ws input[type='submit'] {
+    padding: 10px 30px;
+    font-size: 1.2em;
+    background: dodgerBlue;
+    border: 1px solid white;
+    outline: none;
+    color: white;
+    border-radius: 3px; }

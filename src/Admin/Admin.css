@@ -1,0 +1,134 @@
+.user-p {
+	text-align: center;
+	padding-right: 130px;
+	padding-top: 5px;
+    margin-top: 30px;
+}
+.adimg{
+	height: 778px;
+	width: 1230px;
+	position: relative;
+	margin-left: -90px;
+	margin-top: -280px;
+	position: relative;
+}
+.user-p img {
+	width: 50px;
+	border-radius: 50%;
+	margin-top:10px;
+	margin-left:1px;
+	margin-right: 50px;
+}
+.user-p h4 {
+	color: #ccc;
+	padding:0px 120px;
+	position: absolute;
+	top: 10px;
+	font-family: arial, sans-serif;
+	font-size: 20px;
+
+}
+
+.side-bar {
+	width: 310px;
+	background: #262931;
+	min-height: 100vh;
+	transition: 500ms width;
+    margin-top: -30px;
+}
+
+.body {
+	display: flex;
+    background-color:white;
+    margin-top: -10px;
+    width:20%;
+
+}
+.section-1 {
+	width: 50%;
+	
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.section-1 h1 {
+	color: rgb(12, 12, 12);
+	font-size: 60px;
+}
+.section-1 p {
+	color: #127b8e;
+	font-size: 20px;
+	background: #fff;
+	padding: 7px;
+	border-radius: 5px;
+}
+.side-bar ul {
+	margin-top: 20px;
+	list-style: none;
+}
+.side-bar ul li {
+	font-size: 18px;
+	padding: 15px 0px;
+	padding-left: 30px;
+	transition: 500ms background;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-family: arial, sans-serif;
+}
+.side-bar ul li:hover {
+	background: #127b8e;
+}
+.side-bar ul li a {
+	text-decoration: none;
+	color: #eee;
+	letter-spacing: 1px;
+}
+.side-bar ul li a i {
+	display: inline-block;
+	padding-right: 5px;
+	font-size: 20px;
+    border-radius:0.5px;
+}
+#navbtn {
+	display: inline-block;
+	margin-left: 70px;
+	font-size: 20px;
+	transition: 500ms color;
+}
+
+.table 
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+#table th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #04AA6D;
+	color: white;
+	padding-right:1px;
+	padding-left:1px;
+  }
+  #table{
+	border-collapse: collapse;
+  }
+ 
+  .delete{
+	margin-top: 5px;
+  }
+  th, td {
+	border-right: 2px solid #000000;
+	border-bottom: 2px solid #000000;
+	text-align: center;
+	height: 50px;
+  }
+  
+  td{
+	color: #050404;
+	width: 2px;
+	word-break: break-all;
+	height: 50px;
+  }

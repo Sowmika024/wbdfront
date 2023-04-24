@@ -1,0 +1,358 @@
+.pp2{
+  background-image: url('./images/bg.png');
+   height: 750px;
+   background-size: 1550px 900px;
+   background-repeat: no-repeat;
+   padding: 50px 0px 20px 0px;
+   margin-top: 2px;
+  }
+
+  .pp1{
+    background-image: url('https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+     height: 750px;
+     background-size: 1550px 800px;
+     background-repeat: no-repeat;
+     padding: 20px 0px 20px 0px;
+    }
+    
+ .reg h2{
+  font-size: 22px;
+  text-align: center;
+  font-family: 'Lucida Console';
+  text-decoration: none;
+ }
+
+ .log h2{
+  font-size: 22px;
+  text-align: center;
+  font-family: 'lucida console';
+  text-decoration: none;
+ }
+
+ 
+ .orderpp{
+  background-color: #FAEBD7 ;
+  height:880px;
+  width: 700px;
+  margin: 80px 10px 10px 200px;
+  padding: 20px 20px 20px 20px;
+  position: relative;
+  left: 200px;
+  box-shadow: 0 30px 30px 0 rgba(22,22,26,0.18);
+ }
+
+ .orderpp2{
+  padding:0px 0px 0px 0px;
+  position: relative;
+  left: -200px;
+ }
+
+
+ .log form {
+  background:rgb(61, 58, 59);
+  border: 3px solid #7d7b7b;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 30px 50px;
+  color: #3d3d3d;
+  opacity: 0.6;
+}
+
+ .log input {
+   border: 1px solid #d9d9d9;
+   border-radius: 4px;
+   box-sizing: border-box;
+   padding: 10px;
+   width: 100%;
+   color:'black';
+   color: #000000;
+font-size: 15px;
+ }
+ 
+ .log .label {
+   color: #000000;
+   display: block;
+   font-family: sans-serif;
+   font-size: 14px;
+   font-weight: 500;
+   margin-bottom: 5px;
+ }
+ 
+
+ .log .submit {
+  height: 40px;
+	color: #fff;
+	font-size: 15px;
+	background: rgb(111, 56, 200);
+	cursor: pointer;
+	border-radius: 25px;
+	border: none;
+	outline: none;
+  margin-top: 20px;
+}
+
+ .reg h2{
+  font-size: 22px;
+  text-align: center;
+  font-family: 'Lucida Console';
+  text-decoration: none;
+ }
+
+.reg form {
+  background:rgb(0, 0, 0);
+  opacity: 0.6;
+  border: 2px solid #7d7b7b;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  max-width: 500px;
+  padding: 30px 50px;
+  width: 2000px;
+}
+.reg{
+  margin-top: 10px;
+}
+.reg input{
+  border: 2px solid #676666;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 100%;
+  font-size: 15px;
+}
+
+
+.rg .label {
+  color: #726f6f;
+  /* display: block; */
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+
+}
+
+.reg .submit {
+  height: 40px;
+	color: #fff;
+	font-size: 15px;
+	background: red;
+	cursor: pointer;
+	border-radius: 25px;
+	border: none;
+	outline: none;
+}
+
+ 
+.swabimg{
+ height: 150px;
+ width: 200px;
+ float: right;
+} 
+
+.swabform{
+ margin-left:8.5cm;
+}
+
+
+.pswab{
+ color:rgb(0, 0, 0);
+ margin-left : 11cm;
+ font-size: 25px;
+ margin-top:0.2cm;
+ font-family: 'lucida console';
+}
+
+.pswabo{
+  color:rgb(0, 0, 0);
+  margin-left : 4cm;
+  font-size: 25px;
+  margin-top:1cm;
+  font-family: 'lucida console';
+ }
+
+.swabform label{
+ color:rgb(0, 0, 0);
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 20px;
+}
+.swabform input{
+  padding: 5px;
+ }
+
+.ll{
+    background-color: #c5152a;
+    border-color: #e2001a;
+    color: #fff;
+    padding: 20px 20px 20px 20px;
+    position: relative;
+    left: 150px;
+    
+}
+
+
+.swab{
+ background-color: rgba(189, 179, 179, 0.774);
+ height: 150px;
+ color:rgb(0, 0, 0); 
+ }
+ .lpmain{
+  background-color: white ;
+  position: relative;
+  height:500px;
+  top: 150px;
+  margin: 140px 350px 20px 500px;
+  padding:20px ;
+  width: 500px;
+  box-shadow: 0 30px 30px 0 rgba(22,22,26,0.18);
+ }
+
+.swab input{
+ height: 2000px;
+ margin: 7px;
+ padding: 2px
+}
+.swabfo{
+  width:130px;
+  margin-left: 10px;
+}
+.swabfo label{
+  display:inline-block;
+  text-align: right;
+}
+
+
+ .swab h2,img{
+ color:rgb(0, 0, 0);
+   display: inline-block;
+}
+
+.cf{
+  background:rgb(230,230,250);
+   border: 2px solid rgb(62, 59, 62);
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   margin: 0 auto;
+   max-width: 500px;
+   padding: 0px 50px;
+   color: #000000;
+   margin-top: 0px
+}
+
+.cf b{
+  font-size:20px ;
+}
+
+/* .reg2{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQJOribbcER8oLmx0qLchlLICN3Pxn-VnE5Q&usqp=CAU');
+  height: 750px;
+  background-size: 1550px 750px;
+  background-repeat: no-repeat;
+  padding: 50px 0px 20px 0px;
+  margin-top: 2px;
+  opacity: 0.5;
+} */
+
+.reg2:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 750px;
+  background:url('https://tse1.mm.bing.net/th?id=OIP.dvAavrCB0BZaGZ2S03lEEgHaE8&pid=Api&P=0') center center;
+  opacity: 0.49;
+  width: 1600px;
+  background-size: 1550px 750px;
+}
+.reg2 h1{
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Lucida Handwriting';
+ }
+
+.reg2 form {
+  background:white;
+  border: 2px solid #7d7b7b;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 30px 50px;
+  color: #3d3d3d;
+
+}
+
+.reg2 input{
+  border: 2px solid #676666;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 100%;
+  color:'black';
+  color: #3d3d3d;
+}
+
+.reg2 .label {
+  color: #3d3d3d;
+  display: block;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+
+.reg2 .submit {
+  background-color: rgb(154, 162, 183);
+  color: rgb(0, 0, 0);
+  font-family: sans-serif;
+  font-size: 14px;
+  color:'black';
+  margin: 20px 0px;
+}
+
+.redux .textarea{
+  border: 2px solid #676666;
+  border-radius: 40px;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 100%;
+  color:'black';
+  color: #3d3d3d;
+  height:'150px'
+}
+
+.contact{
+    background-image: url('./images/contact.png');
+     height: 775px;
+     background-size: 1550px 900px;
+     background-repeat: no-repeat;
+     padding: 50px 0px 20px 0px;
+     margin-top: 2px;
+}
+
+.redux .label {
+  color: #3d3d3d;
+  display: block;
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.cont2{
+  margin-top:120px;
+  margin-left:550px;
+  background-color: #000000;
+  opacity: 0.5;
+  width: 500px;
+  height:430px;
+  border:2px solid black;
+}
