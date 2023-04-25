@@ -35,9 +35,7 @@ import {  Provider } from 'react-redux';
 import store from './components/store';
 import OurTeam from './components/OurTeam'
 import UsersList from "./components/UsersList";
-const appGet = require('//express-server/index.js');
 
-console.log(appGet)
 function Apps() {
   return (
   
